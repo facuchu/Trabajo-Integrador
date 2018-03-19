@@ -5,7 +5,7 @@ body{
 
 *{
   box-sizing: border-box;
-  
+
   background: linear-gradient(to left, #fe7c2e,#fdae28);
 }
 
@@ -79,8 +79,8 @@ img {
 ========================*/
 
 .cuerpo {
-  width: 860px
-  margin: auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .cuerpo img {
@@ -89,7 +89,7 @@ img {
   position: relative;
   left: 40%
 
-  
+
 
 }
 

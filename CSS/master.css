@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+  }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+ul{
+  overflow: hidden;
+  border-bottom: 2px solid rgb(163, 112, 11);
+}
+li{
+  display: block;
+  list-style-type: none;
+  float: right;
+  padding: 30px;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+}
