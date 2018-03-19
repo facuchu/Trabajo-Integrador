@@ -1,0 +1,123 @@
+
+body{
+  background-color: yellow;
+}
+
+*{
+  box-sizing: border-box;
+  
+  background: linear-gradient(to left, #fe7c2e,#fdae28, #fe7c2e);
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  background: transparent;
+}
+
+
+
+li a:visited {
+  color: white;
+  background: transparent;
+  text-decoration: none;
+}
+
+/*LOGIN/REGISTER
+==========================*/
+
+
+header {
+  background: transparent;
+  overflow: hidden;
+  height: 85px;
+  border-bottom: 3px solid #fe7c2e;
+}
+
+.container {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+
+}
+
+.main-nav {
+  overflow: hidden;
+  background: transparent;
+  position: absolute;
+  right: 25px;
+  top: 17px;
+  font-weight: bold;
+}
+
+.main-nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-nav ul li {
+  float: right;
+  padding: 0 8px;
+  border-right: 1px solid black;
+  background: transparent;
+}
+
+#last {
+  border-right: none;
+}
+
+
+img {
+  display: block;
+  float: left;
+  width: 80px;
+  background: transparent;
+  margin: 3px 10px;
+}
+
+.titulo h1 {
+  display: block;
+  float: left;
+  background: transparent;
+  margin: 26px 0;
+}
+
+
+
+/*CUERPO CENTRAL
+========================*/
+
+
+.cuerpo {
+  width: 860px
+  margin: auto;
+}
+
+.cuerpo img {
+  width: 650px;
+  margin-top: 15px;
+  position: relative;
+  left: 40%
+}
+
+.cuerpo h1 {
+  position: relative;
+  right: 30%;
+  top: 265px;
+  background: transparent;
+  color: white;
+}
+
+.cuerpo h2 {
+  position: relative;
+  right: 14%;
+  top: 235px;
+  background: transparent;
+  color: white;
+}
+
+

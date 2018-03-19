@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+  
+  background: linear-gradient(to left, #fe7c2e,#fdae28, #fe7c2e);
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+/*BARRA DE NAVEGACION
+======================*/
+
+header {
+  background: transparent;
+  overflow: hidden;
+  height: 85px;
+  border-bottom: 3px solid #fe7c2e;
+}
+
+.container {
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.main-nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-nav ul li {
+  float: right;
+  padding: 0 8px;
+  border-right: 1px solid black;
+  background: transparent;
+}
+
+img {
+  display: block;
+  float: left;
+  width: 80px;
+  background: transparent;
+  margin: 3px 10px;
+}
+
+
+
+/*FORMULARIO
+=============*/
+
+.panal {
+	width: 700px;
+  margin-top: 15px;
+  float: right;
+}
+
+.form-general {
+	background: transparent;
+	border-radius: 20px;
+	width: 50%;
+	margin-left: -417px;
+	margin-top: -15px;
+}
+
+.titulo h1 {
+  color: white;
+  display: block;
+  float: left;
+  background: transparent;
+}
+
+.formulario {
+	margin-left: 30%;
+  margin-top: 3%;
+  background: transparent;
+}
+
+.formulario h1 {
+	background: transparent;
+	margin-left: -388px;
+	margin-top: -20px;
+  color: white;
+}
+
+.form-group {
+	background: transparent;
+	margin: 30px;
+}
+
+.form-control {
+	background: rgba(254, 126, 47, 0.5);
+	display: block;
+}
+
+label {
+	background: transparent;
+  color: white;
+}
+
+input {
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+.btn-primary {
+	color: white;
+	margin-left: 34px;
+	background: transparent;
+	padding: 5px 92px;
+  border-radius: 7px;
+}
+
+.btn-primary:hover {
+	background: #fdae28;
+}
+
+input:focus {
+	background: #fdae28;
+}
+
+.btn-primary2 {
+  position: relative;
+  left: 1015px;
+  top: 0px;
+  background:#fdae28;
+}
+
+.btn-primary2:hover {
+  background: #fdae28;
+}
+
+
+.volver {
+  background: transparent;
+  position: relative;
+  left: 1000px;
+  text-decoration: none;
+  color: wheat;
+}
