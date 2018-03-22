@@ -5,7 +5,7 @@ body{
 
 *{
   box-sizing: border-box;
-  
+
   background: linear-gradient(to left, #fe7c2e,#fdae28, #fe7c2e);
 }
 
@@ -120,4 +120,15 @@ img {
   color: white;
 }
 
-
+.preguntas{
+  position: absolute;
+  left: 95px;
+  background: transparent;
+  top: 105px;
+  width: 500px;
+}
+.preguntas h4,
+.preguntas h5{
+  background: transparent;
+  color: #fff;
+}
